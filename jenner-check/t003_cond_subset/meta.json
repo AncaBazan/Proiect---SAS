@@ -1,0 +1,7 @@
+{
+  "bundle": "t003_cond_subset",
+  "source_file": "Program 1.sas",
+  "source_blob_sha": "d118f849c8aa6985563eb4bf15455222d4eafc0e",
+  "source_commit": "0016c93e7872e3f4c4c7b390a2017580ba528c24",
+  "notes": "Sections 3+4 (conditional IF/THEN/DO logic building Vanzari_maxime, then a WHERE subset). Already self-contained inline DATALINES in the original. One change: the original also assigns `Nume_max = Nume` inside the same guarded DO block, which trips a genuine Jenner variable-typing defect (filed as jenner-language regression test 467238 -- a new character variable created by a guarded assignment in a SET-fed DATA step is mistyped numeric and left missing). Dropped that one assignment for this bundle so the section runs as everything else in it was clearly intended; max_vanzari (numeric) is kept and populates correctly."
+}

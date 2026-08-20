@@ -1,0 +1,22 @@
+                                           Date despre vanzarile angajatilor
+
+
+  Obs    Nume       Luna  Vanzari  max_vanzari
+    1  Ion     ianuarie      5000            .
+    2  Maria   ianuarie      7000            .
+    3  Mihai   ianuarie      6000            .
+    4  Emilia  ianuarie      8000         8000
+    5  Ion     februarie     9000         9000
+    6  Maria   februarie     6000            .
+    7  Mihai   februarie     8000         8000
+    8  Emilia  februarie     7500         7500
+
+                                             Subsetul din Vanzari_Angajati
+
+
+  Obs    Nume       Luna  Vanzari
+    1  Emilia  ianuarie      8000
+    2  Ion     februarie     9000
+    3  Mihai   februarie     8000
+    4  Emilia  februarie     7500
+

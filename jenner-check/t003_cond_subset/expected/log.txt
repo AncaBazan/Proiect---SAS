@@ -1,0 +1,34 @@
+NOTE: Option OBS changed to 100.
+NOTE: DATA vanzari_angajati
+
+NOTE: Processing inline DATALINES (8 lines)
+
+NOTE: Read 8 rows from DATALINES.
+NOTE: Wrote vanzari_angajati (8 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA Vanzari_maxime
+
+
+NOTE: Read 8 rows from vanzari_angajati.
+NOTE: Wrote Vanzari_maxime (8 rows, 4 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: Option TITLE changed to Date despre vanzarile angajatilor.
+NOTE: PROC PRINT data=Vanzari_maxime
+
+NOTE: PROC PRINT completed: 8 observations printed, 4 variables
+NOTE: DATA subset_vanzari
+
+
+NOTE: Read 4 rows from vanzari_angajati.
+NOTE: Wrote subset_vanzari (4 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: Option TITLE changed to Subsetul din Vanzari_Angajati.
+NOTE: PROC PRINT data=subset_vanzari
+
+NOTE: PROC PRINT completed: 4 observations printed, 3 variables

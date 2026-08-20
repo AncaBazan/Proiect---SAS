@@ -1,0 +1,18 @@
+
+  Obs                 Nume_Produs     Categorie  Unitati_vandute  Pret_pe_unitate  Vanzari_totale  Data_lansare
+    1  Apple_iPhone_12             Telefon                    20          4522.74         90454.8     01JAN2023
+    2  Samsung_Galaxy_S21          Telefon                    15           4021.1         60316.5     03JAN2023
+    3  Apple_iPad_Pro_12in         Tablete                    10          5237.71         52377.1     05JAN2023
+    4  Samsung_Galaxy_Tab_S7       Tablete                     8          2809.03        22472.24     06JAN2023
+    5  Sony_PlayStation_5          Jocuri video                5          2220.52         11102.6     08MAR2023
+    6  Microsoft_Xbox_Series_X     Jocuri video                6          2665.45         15992.7     01JAN2023
+    7  Apple_MacBook_Air           Laptopuri                   3          5237.71        15713.13     01FEB2023
+    8  Dell_XPS_13                 Laptopuri                   4          6053.26        24213.04     14APR2023
+    9  Samsung_QLED_Q90T           Televizoare                 2         10017.84        20035.68     16JAN2023
+   10  LG_OLED_CX                  Televizoare                 3          8014.27        24042.81     17JAN2023
+   11  Apple_iPhone_13             Telefon                    25          3989.97        99749.25     01FEB2023
+   12  Samsung_Galaxy_Z_Flip_3     Telefon                    12          5237.71        62852.52     03FEB2023
+   13  Apple_iPad_mini             Tablete                    15           2094.3         31414.5     05FEB2023
+   14  Samsung_Galaxy_Tab_A7_Lite  Tablete                    20           701.43         14028.6     06APR2023
+   15  Sony_PlayStation_5          Jocuri video               10          2220.52         22205.2     10FEB2023
+

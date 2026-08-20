@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_format_vanzare",
+  "source_file": "Program 1.sas",
+  "source_blob_sha": "d118f849c8aa6985563eb4bf15455222d4eafc0e",
+  "source_commit": "0016c93e7872e3f4c4c7b390a2017580ba528c24",
+  "notes": "Section 2 (PROC FORMAT custom value ranges + inline DATALINES + PROC PRINT with the custom format applied). Already self-contained in the original. One line dropped: the original's `format Categorie $Categorie.` references a $Categorie format that is never defined anywhere in the script (only the Vanzare format is created) -- an undefined-format reference in the author's own code, not a Jenner limitation; dropping that one FORMAT statement lets the section run as everything else in it was clearly intended."
+}
