@@ -1,0 +1,10 @@
+                                             Date despre numarul de vanzari
+
+
+  Obs  Categorie   Vanzare
+    1  iphone     Ridicate
+    2  samsung       Medii
+    3  sony       Ridicate
+    4  lg          Scazute
+    5  dell        Scazute
+

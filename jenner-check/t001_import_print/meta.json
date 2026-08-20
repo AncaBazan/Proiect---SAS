@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_import_print",
+  "source_file": "Program 1.sas",
+  "source_blob_sha": "d118f849c8aa6985563eb4bf15455222d4eafc0e",
+  "source_commit": "0016c93e7872e3f4c4c7b390a2017580ba528c24",
+  "notes": "Section 1 (external file import + PROC PRINT). Original reads Electronice_vanzari2.csv via a hardcoded /home/u63371627/... path; here the same 6 columns are supplied inline via DATALINES using a 15-row sample decoded from the repo's own Electronice_vanzari2.xlsx. Logic and PROC PRINT unmodified."
+}

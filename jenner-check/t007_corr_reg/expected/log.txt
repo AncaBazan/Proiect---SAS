@@ -1,0 +1,40 @@
+NOTE: Option OBS changed to 100.
+NOTE: DATA work.raport
+
+NOTE: Processing inline DATALINES (20 lines)
+
+NOTE: Read 20 rows from DATALINES.
+NOTE: Wrote work.raport (20 rows, 6 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC MEANS
+NOTE: Output dataset Suma_vanzari_per_categorie has 6 observations and 4 variables.
+NOTE: PROC MEANS statement used.
+NOTE: PROC SORT data=Suma_vanzari_per_categorie
+
+NOTE: Read 6 rows from Suma_vanzari_per_categorie.
+NOTE: Wrote Suma_vanzari_per_categorie (6 rows, 4 columns).
+NOTE: PROC SORT statement used.
+NOTE: DATA Categorie_max_vanzari
+
+
+NOTE: Read 6 rows from Suma_vanzari_per_categorie.
+NOTE: Wrote Categorie_max_vanzari (1 rows, 4 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=Categorie_max_vanzari
+
+NOTE: PROC PRINT completed: 1 observations printed, 4 variables
+NOTE: PROC CORR data=work.raport
+
+NOTE: PROC REG data=work.raport
+
+NOTE: PROC REG: processed 1 job(s) in batch
+NOTE: ODS plot written: reg_residuals_vs_predicted.spec.json
+NOTE: ODS plot written: reg_residual_histogram_panel.spec.json
+NOTE: ODS plot written: reg_residuals_vs_obs_order.spec.json
+NOTE: ODS plot written: reg_qq_plot.spec.json
+NOTE: ODS plot written: reg_cooksd.spec.json
+NOTE: PROC REG ODS Graphics generated.

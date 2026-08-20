@@ -1,0 +1,25 @@
+                                                   The FREQ Procedure
+
+                                          Cumulative    Cumulative
+Categorie       Frequency    Percent     Frequency      Percent
+---------------------------------------------------------------------
+Jocuri video            2     20.00            2        20.00
+Laptopuri               2     20.00            4        40.00
+Tablete                 2     20.00            6        60.00
+Telefon                 2     20.00            8        80.00
+Televizoare             2     20.00           10       100.00
+                                                  The MEANS Procedure
+
+ Variable               N              Mean           Std Dev           Minimum           Maximum
+ ------------------------------------------------------------------------------------------------
+ Unitati_vandute       10         7.6000000         5.8727241         2.0000000        20.0000000
+ Pret_pe_unitate       10      5079.9630000      2462.7214944      2220.5200000     10017.8400000
+ Vanzari_totale        10     33672.0600000     25651.7923786     11102.6000000     90454.8000000
+ ------------------------------------------------------------------------------------------------
+
+                                              Categorie     Vanzari_totale
+                                              Jocuri video        27095.30
+                                              Laptopuri           39926.17
+                                              Tablete             74849.34
+                                              Telefon            150771.30
+                                              Televizoare         44078.49
